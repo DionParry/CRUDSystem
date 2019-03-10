@@ -1,4 +1,7 @@
 public class Student {
+    private String name;
+    private String surname;
+    private int age;
 
     public Student(String name, String surname, int age) {
         this.name = name;
@@ -22,11 +25,11 @@ public class Student {
         surname = s;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String a) {
+    public void setAge(int a) {
         age = a;
     }
 
